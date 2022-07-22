@@ -22,3 +22,9 @@ microservice_api_key = sak.decrypt_key('my encrypted key in base64 format')
 
 # use the microservice_api_key for calling that microservice
 ```
+
+Decrypt API keys:
+
+```python
+api_key = sak.decrypt_key("base64 encodede and KMS encrypted API Key")
+```
