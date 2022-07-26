@@ -1,6 +1,6 @@
 import unittest
 
-from src.py_secureapikeys_azumio.apikeys import SecureApiKeys
+from py_secureapikeys_azumio.apikeys import SecureApiKeys
 
 class Test(unittest.TestCase):
 
