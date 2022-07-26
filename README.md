@@ -28,3 +28,25 @@ Decrypt API keys:
 ```python
 api_key = sak.decrypt_key("base64 encodede and KMS encrypted API Key")
 ```
+
+## Developers
+
+Project uses Github actions.
+
+Push to `main` branch it will deploy to https://test.pypi.org/
+
+### Production release
+
+1. Create tag
+
+```
+git tag 1.0.1
+```
+
+2. Upgrade version in `setup.py` and `pyproject.toml`.
+
+3. Push tags:
+
+```
+git push origin --tags
+```
