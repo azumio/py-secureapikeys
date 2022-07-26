@@ -3,10 +3,10 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "py-secureapikeys-azumio"
+name = "py_secureapikeys_azumio"
 dependencies = [
   'google-cloud-kms==2.11.0',
-  'crcmod == 1.7',
+  'crcmod',
 ]
 version = "0.0.1"
 authors = [

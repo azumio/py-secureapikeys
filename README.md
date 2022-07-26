@@ -9,13 +9,13 @@ ASPK uses Google KMS.
 ## Installation
 
 ```
-pip install git+https://github.com/azumio/py-secureapikeys.git#egg=py-secureapikeys
+pip install py_secureapikeys_azumio
 ```
 
 ## Usage
 
 ```python
-from secureapikeys.apikeys import SecureApiKeys
+from py_secureapikeys_azumio.apikeys import SecureApiKeys
 
 sak = SecureApiKeys('azumio-com', 'global', 'my-keyring','my-key')
 microservice_api_key = sak.decrypt_key('my encrypted key in base64 format')
