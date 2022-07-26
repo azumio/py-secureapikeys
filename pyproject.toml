@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-secureapikeys-azumio"
+dependencies = [
+  'google-cloud-kms==2.11.0',
+  'crcmod == 1.7',
+]
+version = "0.0.1"
+authors = [
+  { name="Igor Rendulic", email="igor@azumio.com" },
+]
+description = ""
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Security :: Cryptography",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/azumio/py-secureapikeys"
+"Bug Tracker" = "https://github.com/azumio/py-secureapikeys/issues"
