@@ -9,7 +9,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 
 setuptools.setup(
-    name='secureapikeys',
+    name='py_secureapikeys_azumio',
     version='0.0.1',
     author='Igor Rendulic',
     author_email='igor@azumio.com',
@@ -21,6 +21,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/azumio/secureapikeys/issues"
     },
     license='Apache 2.0',
-    packages=['secureapikeys'],
+    packages=['py_secureapikeys_azumio'],
     install_requires=REQUIREMENTS,
 )
