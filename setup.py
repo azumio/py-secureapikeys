@@ -10,7 +10,7 @@ REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 
 setuptools.setup(
     name='py_secureapikeys_azumio',
-    version='0.0.1',
+    version='0.0.2',
     author='Igor Rendulic',
     author_email='igor@azumio.com',
     description='Azumio Secure API Keys',
